@@ -1,53 +1,57 @@
 <!--
 You may use this in any way, on any site, all we ask is that you please keep the link(s) crediting the author.   Though this is not mandatory, it is certainly appreciated.
- -->
-
+-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<title>Adam Hess</title>
-	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
-	<link rel="stylesheet" type="text/css" href="bluebliss.css" />
-</head>
-<body>
-<div id="mainContentArea">
-	<div id="contentBox">
+  <head>
+    <title>Adam Hess</title>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <link rel="stylesheet" type="text/css" href="bluebliss.css" />
+  </head>
+  <body>
+    <div id="mainContentArea">
+      <div id="contentBox">
         <div id="title">Adam M Hess</div>
         
         <div id="linkGroup">
-            <div class="link"><a href="index.html">Portfolio</a></div>
+          <div class="link"><a href="index.html">Portfolio</a></div>
         </div>
         
-        <div id="blueBox"> 
+        <div id="blueBox">
           <div id="header"></div>
           <div class="contentTitle">Digital Communications</div>
-            <div class="pageContent">
-	      <p> <h3>Soft Acoustic Modem </h3></p>
-	      <p>
-		The goal of this project was to design a digital communication system to communicate from one computer's speaker to another computer's microphone. This was to be designed and implemented in Matlab. 
-	      </p>	  	
-<p>
-Included is a presentation of the project and the Matlab code used to implement the project.<br>
-When you run the code in Matlab there are onscreen prompts to syncronize the transmitter and receiver. 
-</p>
-<p>Modem Specifications</br>
-Transmission rate: 200 bits/sec (100 bit/s per I and Q channels)</br>
-Carrier frequency: 100 Hz </br>
-Root-raised Cosine filter roll off factor: 0.35</br>
-Quadrature Phase Shift Keying (QPSK)</br>
-Convolutional Encoding</br>
-Viterbi Algorithm</br>
-Differential Encoding (eliminates need for carrier signal synchronization)
-</p>
-
-<p>
-<a href="SAM_presentation.pptx"><u>Presentation</u></a> </br>
-<a href="SAM_transmitter.m"><u>Transmitter Code</u></a> </br>
-<a href="SAM_receiver.m"><u>Receiver Code</u></a></br>
-</p>   
-         </div>
-           </div>
-	</div>
-</div>
-</body>
+          <div class="pageContent">
+            <p> <h3>Soft Acoustic Modem </h3></p>
+            <h3> Context: </h3>
+            <p>
+              This project was completed as a part of the graduate level Digital Communication course taught by <a href="http://www.ws.binghamton.edu/li/~xli/" >Dr. Xiaohua(Edward) Li.</a> This was a team project (credited in the presentation powerpoint) Most of my contributions were the creation of the presentation and large chunks of the receiver code (namely the Viterbi Decoder) and the modulation scheme. 
+            </p>
+            <h3> Summary: </h3>
+            <p>
+              The goal of this project was to design a Soft Acoustic Modem (SAM)  digital communication system to transmit from one computer's speaker to another computer's microphone. This was to be designed and implemented in Matlab.
+            </p>
+            <p>
+              Included is a presentation of the project and the Matlab code used to implement the project.<br>
+              When you run the code in Matlab there are onscreen prompts to syncronize the transmitter and receiver.
+            </p>
+            <p>Modem Specifications</br>
+              Transmission rate: 200 bits/sec (100 bit/s per I and Q channels)</br>
+              Carrier frequency: 100 Hz </br>
+              Root-raised Cosine filter roll off factor: 0.35</br>
+              Quadrature Phase Shift Keying (QPSK)</br>
+              Convolutional Encoding</br>
+              Viterbi Algorithm</br>
+              Differential Encoding (eliminates need for carrier signal synchronization)
+            </p>
+            <h3>Results: </h3>
+            <p>
+              <a href="SAM_presentation.pptx"><u>Presentation</u></a> </br>
+              <a href="SAM_transmitter.m"><u>Transmitter Code</u></a> </br>
+              <a href="SAM_receiver.m"><u>Receiver Code</u></a></br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
